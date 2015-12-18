@@ -1,0 +1,29 @@
+<html>
+    <script language="javascript">
+        function functionInJs() {
+            alert("This function is defined in Js.");
+        }
+    </script>
+    <body>
+        <a onClick="functionInJs()">    <!-- js 调用 js 自身的函数 -->
+            <div style="width:150px;
+                        margin:0px auto;
+                        padding:10px;
+                        text-align:center;
+                        border:2px solid #111111;" >
+                functionInJs
+            </div>
+        </a>
+        <br/><br/>
+
+        <a onClick="window.demo.functionInAndroid()">   <!-- js 通过 webview 调用 native 的函数 -->
+            <div style="width:150px;
+                    margin:0px auto;
+                    padding:10px;
+                    text-align:center;
+                    border:2px solid #111111;" >
+                functionInAndroid
+            </div>
+        </a>
+    </body>
+</html>

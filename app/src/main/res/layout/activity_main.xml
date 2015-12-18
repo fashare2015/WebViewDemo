@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/btn_show_baidu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="打开百度"/>
+
+    <Button
+        android:id="@+id/btn_invoked_by_js"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="js调用本地"/>
+
+
+</LinearLayout>
